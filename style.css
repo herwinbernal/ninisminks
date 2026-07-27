@@ -397,6 +397,8 @@ body {
   .menu-toggle {
     justify-self: center;
     display: block;
+    position: static;
+    transform: none;
   }
 
   /* HIDE NAV LINKS INITIALLY */
