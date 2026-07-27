@@ -874,3 +874,11 @@ to {
     }
 }
 
+@media (max-width: 768px) {
+  .lang-toggle {
+    font-size: 0.75rem;
+    padding: 4px 6px;
+    border-radius: 4px;
+  }
+}
+
