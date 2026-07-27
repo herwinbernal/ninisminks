@@ -856,5 +856,21 @@ to {
   .footer-bottom {
     margin-top: 40px;
   }
+    
+  .lang-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;   
+    border-radius: 700px;
+    border: 1px solid #333;
+    background: rgba(255,255,255,0.02);
+    font-size: 8px;    
+    letter-spacing: 1px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    }
 }
 
