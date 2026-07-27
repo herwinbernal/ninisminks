@@ -375,7 +375,7 @@ body {
 @media (max-width: 768px) {
 
   .header {
-    padding: 20px;
+    position: relative;
   }
 
   .menu-toggle {
@@ -385,9 +385,10 @@ body {
   /* HIDE NAV LINKS INITIALLY */
   .navbar {
     position: absolute;
-    top: 80px;
+    top: calc(100% - 1px);
     left: 0;
     width: 100%;
+    margin-top: 0;
     background: var(--bg-color);
 
     flex-direction: column;
@@ -856,24 +857,10 @@ to {
   .footer-bottom {
     margin-top: 40px;
   }
-    
-  .lang-toggle {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 5px 12px;   
-    border-radius: 700px;
-    border: 1px solid #333;
-    background: rgba(255,255,255,0.02);
-    font-size: 8px;    
-    letter-spacing: 1px;
-    cursor: pointer;
-    user-select: none;
-    transition: all 0.3s ease;
-    font-family: 'Poppins', sans-serif;
-    }
+
 }
 
+/*button for english/spanish */
 @media (max-width: 768px) {
   .lang-toggle {
     font-size: 1rem;
@@ -881,4 +868,3 @@ to {
     border-radius: 6px;
   }
 }
-
