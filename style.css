@@ -876,9 +876,9 @@ to {
 
 @media (max-width: 768px) {
   .lang-toggle {
-    font-size: 0.75rem;
-    padding: 4px 6px;
-    border-radius: 4px;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 6px;
   }
 }
 
