@@ -399,6 +399,8 @@ body {
     display: block;
     position: static;
     transform: none;
+    margin-right: 50%;
+    margin-left: 50%;
   }
 
   /* HIDE NAV LINKS INITIALLY */
